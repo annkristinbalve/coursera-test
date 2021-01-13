@@ -4,101 +4,33 @@
 	<title>SolutionModule2</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<style type="text/css">
-    * {
-		box-sizing: border-box;
-		font-family: Times, "Times New Roman", serif;
-	}
-
-		/*for mobile view */
-	@media (max-width: 767px) {
-		#sec1,#sec2,#sec3 {
-			width: 80%;
-		}
-
-
-	}
-		/* for tablet view*/
-
-	@media (min-width: 768px) and (max-width: 991px){
-		#sec1, #sec2{
-			width: 45%;
-			float: right;
-		}
-		#sec3
-		{
-			clear: both;
-			width: 100%;
-		}
-
-	}
-		/* for desktop view */
-
-	@media (min-width: 992px) {
-		section {
-			width: 30%;
-			float: right;
-	}
-
-	h1 {
-		font-size: 175%;
-	}
-
-
-	body,h1, h4, p {
-		margin: 10px 20px;
-		padding: 5px;
-	}
-	
-
-    section {
-        background: lightgrey;
-        padding: 10px;
-        margin: 20px;
-        border: solid black 1px;
-
-	}
-
-	h4 {
-		border: solid black 1px;
-		float: right;	
-		font-size: 125%;
-	}
-
-	p {
-		clear: both;
-
-	}
-
-	#head1 {
-		background-color: lightblue;
-	}
-
-	#head2 {
-		background-color: lightgreen;
-	}
-
-	#head3 {
-		background-color: pink;
-		opacity: 50%
-	}
-
-	}
-
-	</style>
+	<link rel="stylesheet" type="text/css" href="mod2sol.css">
 
 </head>
 <body>
-	<h1>Page Heading</h1>
-	<section id="sec1">
-		<h4 id="head1">section title1</h4>
-		<p>some dummy text</p>
-	</section id="sec2">
-	<section>
-		<h4 id="head2">section title2</h4>
-		<p>Some dummy text</p></section>
-	<section id="sec3">
-		<h4 id="head3">section title3</h4>
-		<p>some dummy text</p></section>
+	<div class="row">
+		<h1>Our menu</h1>
+		<div class="col-lg-4 col-md-6">
+			<section id="sec1">
+				<h4 id="head1">Tofu</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. N</p>
+			</section>
+		</div>
+
+		<div class="col-lg-4 col-md-6">
+			<section id="sec2">
+				<h4 id="head2">Salad</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. N</p>
+			</section>
+		</div>
+
+		<div class="col-lg-4 col-md-12">
+			<section id="sec3">
+				<h4 id="head3">Soup</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. N</p>
+			</section>
+		</div>
+	</div>
+
 </body>
 </html>
